@@ -1,0 +1,4 @@
+openai==0.28.0
+python_sat==1.8.dev13
+sentence_transformers==3.0.1
+ttkbootstrap==1.10.1
