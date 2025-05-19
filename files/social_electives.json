@@ -1,0 +1,271 @@
+[
+    {
+        "code": "L11 Econ 1011",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    },
+
+    {
+        "code": "L11 Econ 1021",
+        "credit_units": 3,
+        "prerequisites": [
+            "L11 Econ 1011"
+        ]
+    },
+
+    {
+        "code": "L11 Econ 4011",
+        "credit_units": 3,
+        "prerequisites": [
+            "L11 Econ 1011",
+            "L24 MATH 131",
+            "L24 MATH 132"
+        ]
+    },
+
+    {
+        "code": "L11 Econ 4021",
+        "credit_units": 3,
+        "prerequisites": [
+            "L11 Econ 1021",
+            "L11 Econ 4011"
+        ]
+    },
+
+    {
+        "code": "L11 Econ 404",
+        "credit_units": 3,
+        "prerequisites": [
+            "L11 Econ 4011"
+        ]
+    },
+
+
+    {
+        "code": "L33 Psych 100B",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    },
+
+    {
+        "code": "L33 Psych 234",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    },
+
+    {
+        "code": "L33 Psych 300",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 100B"
+        ]
+    },
+
+    {
+        "code": "L33 Psych 301",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 300"
+        ]
+    },
+
+    {
+        "code": "L33 Psych 3011",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 300"
+        ]
+    },
+
+    {
+        "code": "L33 Psych 3015",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 100B"
+        ]
+    },
+
+    {
+        "code": "L33 Psych 3401",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 100B"
+        ]
+    },
+
+    {
+        "code": "L33 Psych 358",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 100B"
+        ]
+    },
+
+    {
+        "code": "L33 Psych 360",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 100B"
+        ]
+    },
+
+    {
+        "code": "L33 Psych 3604",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 100B"
+        ]
+    },
+
+    {
+        "code": "L33 Psych 361",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 100B"
+        ]
+    },
+
+    {
+        "code": "L92 APL 315",
+        "credit_units": 3,
+        "prerequisites": ["L33 Psych 100B"
+        ]
+    },
+
+    {
+        "code": "L92 APL 3386",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    
+    {
+        "code": "L92 APL 472",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L08 Classics 301C",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L08 Classics 347C",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L30 Phil 100G",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L30 Phil 101",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L30 Phil 102F",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L30 Phil 306G",
+        "credit_units": 3,
+        "prerequisites": ["L30 Phil 100G"]
+    },
+
+    {
+        "code": "L30 Phil 3113",
+        "credit_units": 3,
+        "prerequisites": ["L30 Phil 100G"]
+    },
+
+    {
+        "code": "L30 Phil 315",
+        "credit_units": 3,
+        "prerequisites": ["L30 Phil 100G"]
+    },
+
+    {
+        "code": "L30 Phil 321G",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L30 Phil 390",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L44 Ling 170D",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L44 Ling 258",
+        "credit_units": 3,
+        "prerequisites": ["L44 Ling 170D"]
+    },
+
+    {
+        "code": "L44 Ling 309",
+        "credit_units": 3,
+        "prerequisites": ["L44 Ling 170D"]
+    },
+
+    {
+        "code": "L40 SOC 106",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L40 SOC 3001",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L40 SOC 3030",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    
+    {
+        "code": "LPH LPHS 1000",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L14 Lit 159",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L14 Lit 209",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L14 Lit 2151",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "L14 Lit 2152",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L14 Lit 312C",
+        "credit_units": 3,
+        "prerequisites": []
+    }
+]

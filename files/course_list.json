@@ -1,0 +1,903 @@
+[
+    {
+        "code": "E81 CSE 100A",
+        "credit_units": 0,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 107",
+        "credit_units": 1,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 131",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "E81 CSE 132",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 204A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 217A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 247",
+            "MATH233"
+        ]
+    },
+    {
+        "code": "E81 CSE 222S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 132"
+        ]
+    },
+    {
+        "code": "E81 CSE 231S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 232",
+        "credit_units": 1,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 237S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 240",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 247",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": []
+    },
+  
+    {
+        "code": "E81 CSE 256A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 260M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 311A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 314A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 217A",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 316A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 330S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 332S",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 337A",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 341T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 347",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+  
+    {
+        "code": "E81 CSE 359A",
+        "credit_units": 3,
+        "prerequisites": [
+            "ESE 105",
+            "E81 CSE 217A",
+            "E81 CSE 417T"
+        ]
+    },
+    {
+        "code": "E81 CSE 361S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 132"
+        ]
+    },
+    {
+        "code": "E81 CSE 362M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 260M"
+        ]
+    },
+    {
+        "code": "E81 CSE 365S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 400",
+        "credit_units": 6,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 400E",
+        "credit_units": 6,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 411A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 412A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "ESE 326",
+            "MATH 233"
+        ]
+    },
+
+    {
+        "code": "MATH 233",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "MATH 309",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "MATH 3200",
+        "credit_units": 3,
+        "prerequisites": ["MATH 233"]
+    },
+
+    {
+        "code": "CWP 100",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": ["MATH 233"]
+    },
+
+
+    {
+        "code": "L59 Engr 310",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": ["MATH 233"]
+    },
+
+
+    {
+        "code": "E81 CSE 416A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "ESE 326",
+            "MATH 309"
+        ]
+    },
+    {
+        "code": "E81 CSE 417T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "ESE 326",
+            "MATH 233",
+            "MATH 309"
+        ]
+    },
+    {
+        "code": "E81 CSE 422S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S"
+        ]
+    },
+    {
+        "code": "E81 CSE 425S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 332S"
+        ]
+    },
+    {
+        "code": "E81 CSE 427S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 247",
+            "E81 CSE 330"
+        ]
+    },
+    {
+        "code": "E81 CSE 428S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 332S",
+            "E81 CSE 504N"
+        ]
+    },
+    {
+        "code": "E81 CSE 431S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 433S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "E81 CSE 361",
+            "E81 CSE 332"
+        ]
+    },
+    {
+        "code": "E81 CSE 434S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S"
+        ]
+    },
+    {
+        "code": "E81 CSE 435S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 437S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 330S"
+        ]
+    },
+    {
+        "code": "E81 CSE 438S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 439S",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 442T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 447T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 450A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 451A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 450A"
+        ]
+    },
+    {
+        "code": "E81 CSE 452A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 332S",
+            "MATH 309"
+        ]
+    },
+    {
+        "code": "E81 CSE 454A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 330S",
+            "E81 CSE 332S"
+        ]
+    },
+    {
+        "code": "E81 CSE 457A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 330S"
+        ]
+    },
+    {
+        "code": "E81 CSE 460T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 260M"
+        ]
+    },
+    {
+        "code": "E81 CSE 462M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S",
+            "E81 CSE 362M"
+        ]
+    },
+    {
+        "code": "E81 CSE 463M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 260M",
+            "ESE 232"
+        ]
+    },
+    {
+        "code": "E81 CSE 465M",
+        "credit_units": 3,
+        "prerequisites": [
+            "ESE 260"
+        ]
+    },
+    {
+        "code": "E81 CSE 467S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S"
+        ]
+    },
+    {
+        "code": "E81 CSE 468T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "MATH 309",
+            "MATH 3200",
+            "ESE 326"
+        ]
+    },
+    {
+        "code": "E81 CSE 469S",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 473S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "E81 CSE 132"
+        ]
+    },
+    {
+        "code": "E81 CSE 497",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 498",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 499",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 500",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 501N",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 502N",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 501N"
+        ]
+    },
+    {
+        "code": "E81 CSE 503S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 504N",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 505N",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 513T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 347"
+        ]
+    },
+    {
+        "code": "E81 CSE 514A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "ESE 326",
+            "MATH 3200",
+            "MATH 233"
+        ]
+    },
+    {
+        "code": "E81 CSE 515T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 417T",
+            "ESE 326"
+        ]
+    },
+    {
+        "code": "E81 CSE 516A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 347",
+            "ESE 326",
+            "MATH 233"
+        ]
+    },
+
+    {
+        "code": "ESE 105",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "ESE 260",
+        "credit_units": 3,
+        "prerequisites": ["E81 CSE 131"]
+    },
+    {
+        "code": "ESE 326",
+        "credit_units": 3,
+        "prerequisites": ["MATH 233"]
+    },
+
+
+    {
+        "code": "ESE 415",
+        "credit_units": 3,
+        "prerequisites": ["MATH 309", "E81 CSE 131"]
+    },
+
+
+    {
+        "code": "ESE 417",
+        "credit_units": 3,
+        "prerequisites": ["ESE 326", "MATH 233"]
+    },
+
+    {
+        "code": "E81 CSE 517A",
+        "credit_units": 3,
+        "prerequisites": [
+            "MATH 233",
+            "E81 CSE 247",
+            "ESE 326",
+            "MATH 309",
+            "E81 CSE 417T",
+            "ESE 417"
+        ]
+    },
+    {
+        "code": "E81 CSE 518A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "ESE 326",
+            "MATH 233",
+            "MATH 309"
+        ]
+    },
+    {
+        "code": "E81 CSE 519T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 517A"
+        ]
+    },
+    {
+        "code": "E81 CSE 520S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S"
+        ]
+    },
+    {
+        "code": "E81 CSE 521S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S"
+        ]
+    },
+    {
+        "code": "E81 CSE 522S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 422S"
+        ]
+    },
+    {
+        "code": "E81 CSE 523S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S"
+        ]
+    },
+    {
+        "code": "E81 CSE 527A",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 532S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 332S",
+            "E81 CSE 422S"
+        ]
+    },
+    {
+        "code": "E81 CSE 533T",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 534A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "MATH 309",
+            "MATH 3200",
+            "ESE 326",
+            "ESE 415"
+        ]
+    },
+    {
+        "code": "E81 CSE 537T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247",
+            "MATH 217",
+            "E81 CSE 347",
+            "E81 CSE 417T",
+            "ESE 417"
+        ]
+    },
+    {
+        "code": "E81 CSE 538T",
+        "credit_units": 3,
+        "prerequisites": [
+            "ESE 326"
+        ]
+    },
+    {
+        "code": "E81 CSE 539S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "E81 CSE 361S"
+        ]
+    },
+    {
+        "code": "E81 CSE 541T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 347"
+        ]
+    },
+    {
+        "code": "E81 CSE 543S",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 543T",
+        "credit_units": 3,
+        "prerequisites": [
+            "MATH 309"
+        ]
+    },
+    {
+        "code": "E81 CSE 544A",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 544M",
+        "credit_units": 0,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 544S",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 544T",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 546T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 347"
+        ]
+    },
+    {
+        "code": "E81 CSE 549T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 554A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 332",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 555A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 452A",
+            "E81 CSE 554A",
+            "E81 CSE 559A"
+        ]
+    },
+    {
+        "code": "E81 CSE 555T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 417T"
+        ]
+    },
+    {
+        "code": "E81 CSE 556A",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 557A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 457A"
+        ]
+    },
+    {
+        "code": "E81 CSE 559A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 417T",
+            "ESE 417",
+            "E81 CSE 514A",
+            "E81 CSE 517A"
+        ]
+    },
+    {
+        "code": "E81 CSE 560M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S",
+            "E81 CSE 260M"
+        ]
+    },
+    {
+        "code": "E81 CSE 563M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 260M",
+            "ESE 232"
+        ]
+    },
+    {
+        "code": "E81 CSE 566S",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 567M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 260M"
+        ]
+    },
+    {
+        "code": "E81 CSE 569S",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 570S",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 571S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 473S"
+        ]
+    },
+    {
+        "code": "E81 CSE 574S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 473S"
+        ]
+    },
+    {
+        "code": "E81 CSE 581T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 347"
+        ]
+    },
+    {
+        "code": "E81 CSE 584A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 347"
+        ]
+    },
+    {
+        "code": "E81 CSE 586A",
+        "credit_units": 3,
+        "prerequisites": [
+            "MATH 309",
+            "ESE 326",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 587A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 501N"
+        ]
+    },
+    {
+        "code": "E81 CSE 591",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 598",
+        "credit_units": 6,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 599",
+        "credit_units": 6,
+        "prerequisites": []
+    }
+]
+    

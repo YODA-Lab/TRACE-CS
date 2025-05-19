@@ -1,0 +1,25 @@
+{
+  "current_semester": 4,
+  "max_schedule_count": 1,
+
+
+
+  "courses_taken": {
+    "1": [
+      "E81 CSE 131", "E81 CSE 132", "L11 Econ 1011", "L41 BIOL 2950", "L24 MATH 131"
+
+    ],
+    "2": [
+      "E81 CSE 132", "L24 MATH 233", "E35 ESE 260", "L41 BIOL 2960", "L33 Psych 100B"
+    ],
+    "3": [
+      "E81 CSE 237S", "L59 Engr 310", "E81 CSE 361S", "L24 MATH 3200", "L24 MATH 217"
+    ],
+    "4": [
+      "E81 CSE 222S", "E81 CSE 204A", "E81 CSE 231S", "E81 CSE 400E"
+    ]
+  },
+  "preferred_courses": {
+   
+  }
+}

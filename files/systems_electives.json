@@ -1,0 +1,54 @@
+[
+    {
+        "code": "E81 CSE 422S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 425S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 332S"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 431S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 433S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "E81 CSE 361S",
+            "E81 CSE 332S"
+        ]
+    },
+    {
+        "code": "E81 CSE 434S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 361S"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 473S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "E81 CSE 132"
+        ]
+    }
+
+
+]

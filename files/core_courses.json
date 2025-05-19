@@ -1,0 +1,106 @@
+[
+    {
+        "code": "E81 CSE 131",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "E81 CSE 132",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 240",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 247",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+  
+
+    {
+        "code": "E81 CSE 332S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 247"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 347",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 361S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 132"
+        ]
+    },
+
+    {
+        "code": "L24 MATH 233",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L24 MATH 131",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L24 MATH 132",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "L24 MATH 3200",
+        "credit_units": 3,
+        "prerequisites": ["L24 MATH 233"]
+    },
+
+    {
+        "code": "E35 ESE 318",
+        "credit_units": 3,
+        "prerequisites": ["L24 MATH 233", "L24 MATH 217"]
+    },
+
+    
+
+   
+    {
+        "code": "CWP 100",
+        "credit_units": 3,
+        "prerequisites": ["L24 MATH 233"]
+    },
+
+    {
+        "code": "L59 Engr 310",
+        "credit_units": 3,
+        "prerequisites": ["L24 MATH 233"]
+    }
+    
+
+
+]

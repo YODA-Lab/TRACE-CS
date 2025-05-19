@@ -1,0 +1,272 @@
+[
+    {
+        "code": "E81 CSE 100A",
+        "credit_units": 0,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 107",
+        "credit_units": 1,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 131",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 131R",
+        "credit_units": 1,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 132",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 132R",
+        "credit_units": 1,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 204A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 217A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 247",
+            "MATH233"
+        ]
+    },
+    {
+        "code": "E81 CSE 222S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 132"
+        ]
+    },
+    {
+        "code": "E81 CSE 231S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 232",
+        "credit_units": 1,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 237S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 240",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 247",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 247R",
+        "credit_units": 1,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 256A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 260M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 311A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 314A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 217A",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 316A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 330S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 332S",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 337A",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 341T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 347",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 347R",
+        "credit_units": 0,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 359A",
+        "credit_units": 3,
+        "prerequisites": [
+            "ESE 105",
+            "E81 CSE 217A",
+            "E81 CSE 417T"
+        ]
+    },
+    {
+        "code": "E81 CSE 361S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 132"
+        ]
+    },
+    {
+        "code": "E81 CSE 362M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 260M"
+        ]
+    },
+    {
+        "code": "E81 CSE 365S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 400",
+        "credit_units": 6,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 400E",
+        "credit_units": 6,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 411A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 412A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "ESE 326",
+            "MATH 233"
+        ]
+    },
+
+    {
+        "code": "MATH 233",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "MATH 309",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+
+    {
+        "code": "MATH 3200",
+        "credit_units": 3,
+        "prerequisites": ["MATH 233"]
+    },
+
+    {
+        "code": "CWP 100",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": ["MATH 233"]
+    },
+
+
+    {
+        "code": "L59 Engr 310",
+        "core": true,
+        "credit_units": 3,
+        "prerequisites": ["MATH 233"]
+    }
+
+
+]

@@ -1,0 +1,137 @@
+[
+
+   
+    {
+        "code": "L24 MATH 217",
+        "credit_units": 3,
+        "prerequisites": [
+            "L24 MATH 233"
+        ]
+    },
+
+    {
+        "code": "L24 MATH 309",
+        "credit_units": 3,
+        "prerequisites": [
+            "L24 MATH 132"
+        ]
+    },
+
+    {
+        "code": "L24 MATH 370",
+        "credit_units": 3,
+        "prerequisites": [
+            "L24 MATH 132",
+            "L24 MATH 309"
+        ]
+    },
+    {
+        "code": "L24 MATH 429",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    },
+
+
+    {
+        "code": "L24 MATH 493C",
+        "credit_units": 3,
+        "prerequisites": [
+            "L24 MATH 233",
+            "L24 MATH 3200"
+
+        ]
+    },
+
+    {
+        "code": "L07 Chem 105",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    },
+
+    {
+        "code": "L07 Chem 111A",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    },
+
+    {
+        "code": "L07 Chem 151",
+        "credit_units": 3,
+        "prerequisites": [
+            "L07 Chem 111A"
+        ]
+    },
+    
+    
+    {
+        "code": "L41 BIOL 2950",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    },
+
+    {
+        "code": "L41 BIOL 2960",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    },
+
+    {
+        "code": "L41 BIOL 2970",
+        "credit_units": 3,
+        "prerequisites": ["L41 BIOL 2960"
+        ]
+    },
+
+    {
+        "code": "L31 Physics 173",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    },
+
+    {
+        "code": "L31 Physics 205",
+        "credit_units": 3,
+        "prerequisites": ["L24 MATH 131"
+        ]
+    },
+
+
+{
+        "code": "L31 Physics 191",
+        "credit_units": 3,
+        "prerequisites": [ "L24 MATH 131", "L24 MATH 132"
+        ]
+    },
+
+    {
+        "code": "L31 Physics 192",
+        "credit_units": 3,
+        "prerequisites": [ "L31 Physics 191", "L24 MATH 131"
+        ]
+    },
+
+
+    {
+        "code": "L31 Physics 3068",
+        "credit_units": 3,
+        "prerequisites": [ "L24 MATH 132", "L24 MATH 131"
+        ]
+    },
+
+    
+    {
+        "code": "L31 Physics 481",
+        "credit_units": 3,
+        "prerequisites": [
+        ]
+    }
+
+
+
+]

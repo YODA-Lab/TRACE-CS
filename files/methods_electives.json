@@ -1,0 +1,75 @@
+[
+
+    {
+        "code": "E81 CSE 256A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 411A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 412A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "E35 ESE 326",
+            "L24 MATH 233"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 416A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "E35 ESE 326",
+            "L24 MATH 309"
+        ]
+    },
+    {
+        "code": "E81 CSE 417T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "E35 ESE 326",
+            "L24 MATH 233",
+            "L24 MATH 309"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 442T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 457A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 330S"
+        ]
+    },
+
+    {
+        "code": "E81 CSE 468T",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "L24 MATH 309",
+            "L24 MATH 3200",
+            "E35 ESE 326"
+        ]
+    }
+]

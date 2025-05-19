@@ -1,0 +1,136 @@
+[
+    {
+        "code": "E81 CSE 131",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    
+    {
+        "code": "E81 CSE 131R",
+        "credit_units": 1,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 132",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 132R",
+        "credit_units": 1,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 204A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 217A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 222S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 132"
+        ]
+    },
+    {
+        "code": "E81 CSE 231S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 232",
+        "credit_units": 1,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 237S",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 240",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 247",
+        "credit_units": 3,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 247R",
+        "credit_units": 1,
+        "prerequisites": []
+    },
+    {
+        "code": "E81 CSE 256A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 260M",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131"
+        ]
+    },
+    {
+        "code": "E81 CSE 311A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 314A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 131",
+            "E81 CSE 217A",
+            "E81 CSE 247"
+        ]
+    },
+    {
+        "code": "E81 CSE 316A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 240",
+            "E81 CSE 247"
+        ]
+    },
+    
+    {
+        "code": "E81 CSE 412A",
+        "credit_units": 3,
+        "prerequisites": [
+            "E81 CSE 247",
+            "ESE 326",
+            "MATH 233"
+        ]
+    }
+]
+
+
+    
