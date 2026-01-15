@@ -198,6 +198,7 @@ def generate_datasets(config: DatasetConfig) -> None:
                     schedule_unit_clauses=schedule_unit_clauses,
                     vpool_mapping=vpool_mapping,
                     course_index_map=course_index_map,
+                    templates=scheduler.templates,
                 )
 
                 manifest["schedules"].append(
