@@ -40,6 +40,7 @@ def export_kb_json(
     schedule_unit_clauses: List[List[int]],
     vpool_mapping: List[Dict[str, object]],
     course_index_map: List[Dict[str, object]],
+    templates: Dict[str, List[List[int]]] = None,
 ) -> None:
     payload = {
         "schedule_id": schedule_id,
@@ -50,5 +51,9 @@ def export_kb_json(
         "vpool_mapping": vpool_mapping,
         "course_index_map": course_index_map,
     }
+    if templates is not None:
+        payload["templates"] = [
+            {"label": label, "clauses": clauses} for label, clauses in templates.items()
+        ]
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(payload, indent=2))
