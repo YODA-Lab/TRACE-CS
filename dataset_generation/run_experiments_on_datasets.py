@@ -8,6 +8,8 @@ from typing import Dict, List, Optional
 repo_root = Path(__file__).resolve().parents[1]
 sys.path.append(str(repo_root))
 
+from types import SimpleNamespace
+
 from scheduler import CourseScheduler
 from explainer import contrastive_explanations, post_process_explanation
 
@@ -20,6 +22,13 @@ def _load_json(path: Path) -> Dict:
 def _save_json(path: Path, payload: Dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2))
+
+
+def _build_true_lits_from_payload(schedule_payload: Dict) -> List[List[int]]:
+    schedule_literals = schedule_payload.get("schedule_true_literals")
+    if schedule_literals:
+        return [[lit] for lit in schedule_literals]
+    return []
 
 
 def _build_true_lits(scheduler, schedule: List[List[str]]) -> List[List[int]]:
@@ -84,6 +93,51 @@ def _build_query_data_from_items(scheduler, items: List[Dict]) -> List:
     return query_data
 
 
+def _build_course_vars_from_kb(kb_payload: Dict) -> Dict[str, Dict[str, object]]:
+    index_map = {entry["index"]: entry["course_code"] for entry in kb_payload["course_index_map"]}
+    course_vars: Dict[str, Dict[str, object]] = {
+        code: {"var": None, "semester_vars": {}} for code in index_map.values()
+    }
+
+    for entry in kb_payload["vpool_mapping"]:
+        var_id = entry["var"]
+        label = entry["label"]
+        if not isinstance(label, str) or not label.startswith("c"):
+            continue
+        if "_s" in label:
+            prefix, sem_part = label.split("_s", 1)
+            index = int(prefix[1:])
+            semester = int(sem_part)
+            course_code = index_map.get(index)
+            if course_code is not None:
+                course_vars[course_code]["semester_vars"][semester] = var_id
+        else:
+            index = int(label[1:])
+            course_code = index_map.get(index)
+            if course_code is not None:
+                course_vars[course_code]["var"] = var_id
+
+    for course_code, data in course_vars.items():
+        semester_vars = data["semester_vars"]
+        if semester_vars:
+            data["semester_vars"] = [semester_vars[k] for k in sorted(semester_vars.keys())]
+        else:
+            data["semester_vars"] = []
+
+    return course_vars
+
+
+def _apply_saved_kb(scheduler, kb_payload: Dict) -> None:
+    scheduler.cnf = SimpleNamespace(hard=kb_payload["kb_clauses"], soft=[])
+    templates = kb_payload.get("templates")
+    if templates is None:
+        raise ValueError(
+            "Saved KB does not include templates. Regenerate datasets with templates enabled."
+        )
+    scheduler.templates = {entry["label"]: entry["clauses"] for entry in templates}
+    scheduler.course_vars = _build_course_vars_from_kb(kb_payload)
+
+
 def run_dataset_experiments(
     manifest_path: Path,
     output_path: Path,
@@ -91,6 +145,7 @@ def run_dataset_experiments(
     max_schedules: Optional[int],
     max_queries: Optional[int],
     post_process: bool,
+    use_saved_kb: bool,
 ) -> None:
     manifest = _load_json(manifest_path)
     schedule_entries = manifest.get("schedules", [])
@@ -108,6 +163,7 @@ def run_dataset_experiments(
     for entry in schedule_entries:
         schedule_path = Path(entry["schedule_path"])
         input_path = Path(entry["input_path"])
+        kb_path = Path(entry["kb_path"])
 
         schedule_payload = _load_json(schedule_path)
         user_input = _load_json(input_path)
@@ -121,10 +177,16 @@ def run_dataset_experiments(
             str(course_files["social"]),
             str(input_path),
         )
-        scheduler.generate_constraints()
+        if use_saved_kb:
+            kb_payload = _load_json(kb_path)
+            _apply_saved_kb(scheduler, kb_payload)
+        else:
+            scheduler.generate_constraints()
 
         schedule = schedule_payload["schedule"]
-        true_lits = _build_true_lits(scheduler, schedule)
+        true_lits = _build_true_lits_from_payload(schedule_payload)
+        if not true_lits:
+            true_lits = _build_true_lits(scheduler, schedule)
         schedules = [schedule]
         all_true_lits = [true_lits]
 
@@ -174,6 +236,7 @@ def _parse_args():
     parser.add_argument("--max-schedules", type=int, default=None)
     parser.add_argument("--max-queries", type=int, default=None)
     parser.add_argument("--post-process", action="store_true")
+    parser.add_argument("--use-saved-kb", action="store_true")
     args = parser.parse_args()
 
     files_dir = repo_root / "files"
@@ -198,4 +261,5 @@ if __name__ == "__main__":
         max_schedules=args.max_schedules,
         max_queries=args.max_queries,
         post_process=args.post_process,
+        use_saved_kb=args.use_saved_kb,
     )
