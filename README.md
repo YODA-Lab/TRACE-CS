@@ -1,5 +1,5 @@
 # TRACE-CS
-This repository contains the code for the TRACE-CS framework, presented in the AAAI 2025 demo paper: [Trustworthy Reasoning for Contrastive Explanations in Course Scheduling Problems](https://arxiv.org/abs/2409.03671).
+This repository contains the code for the TRACE-CS framework, presented in the AAAI 2025 (demo) and KR 2025: [Trustworthy Reasoning for Contrastive Explanations in Course Scheduling Problems](https://arxiv.org/abs/2409.03671).
 
 ## Overview
 
