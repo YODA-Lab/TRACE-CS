@@ -64,8 +64,8 @@ Use the generated datasets directly with the explainer algorithms:
 python /Users/mithrandir/Desktop/Code/trace-cs/dataset_generation/run_experiments_on_datasets.py \
   --manifest /Users/mithrandir/Desktop/Code/trace-cs/datasets/manifest.json \
   --output /Users/mithrandir/Desktop/Code/trace-cs/datasets/experiment_results.json \
-  --max-schedules 2 \
-  --max-queries 10
+  --max-schedules 1 \
+  --max-queries 2
 ```
 
 To also call the LLM post-processor (requires API key configured):
@@ -74,3 +74,12 @@ To also call the LLM post-processor (requires API key configured):
 python /Users/mithrandir/Desktop/Code/trace-cs/dataset_generation/run_experiments_on_datasets.py \
   --post-process
 ```
+
+Use the saved KB + templates:
+
+```bash
+python /Users/mithrandir/Desktop/Code/trace-cs/dataset_generation/run_experiments_on_datasets.py \
+  --use-saved-kb
+```
+
+Note: This requires datasets generated after the templates were added to KB exports.
