@@ -37,9 +37,9 @@ To launch the GUI, simply run:
 If you use TRACE-CS, or you are inspired by TRACE-CS, please cite the paper:
 
     @inproceedings{trace-cs2025,
-      title={Trustworthy Reasoning for Contrastive Explanations in Course Scheduling Problems},
+      title={TRACE-CS: A Hybrid Logic–LLM System for Explainable Course Scheduling},
       author={Stylianos Loukas Vasileiou, William Yeoh},
-      booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+      booktitle={Proceedings of International Conference on Principles of Knowledge Representation and Reasoning (KR)},
       year={2025}
     }
 
