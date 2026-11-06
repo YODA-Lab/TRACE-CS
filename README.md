@@ -15,6 +15,8 @@ TRACE-CS is a hybrid system that combines symbolic reasoning and large language 
 
 ### Video
 
+https://github.com/user-attachments/assets/04012215-8adf-4cc2-ba38-3921a3c7b1de
+
 
 
 #### Installation:
