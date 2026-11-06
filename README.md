@@ -13,7 +13,7 @@ TRACE-CS is a hybrid system that combines symbolic reasoning and large language 
 - **Symbolic Module**: Encodes scheduling constraints and generates logic-based explanations.
 - **LLM Module**: Converts user queries to symbolic representations and refines explanations into natural language.
 
-### Video
+### Video Overview
 
 https://github.com/user-attachments/assets/04012215-8adf-4cc2-ba38-3921a3c7b1de
 
